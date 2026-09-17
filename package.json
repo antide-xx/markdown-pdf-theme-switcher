@@ -1,0 +1,61 @@
+{
+  "name": "markdown-pdf-theme-switcher",
+  "displayName": "Markdown PDF Theme Switcher",
+  "description": "Professional CSS themes for Markdown PDF, with a Command Palette switcher and embedded IBM Plex.",
+  "version": "0.2.0",
+  "publisher": "antide-xx",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antide-xx/markdown-pdf-theme-switcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/antide-xx/markdown-pdf-theme-switcher/issues"
+  },
+  "homepage": "https://github.com/antide-xx/markdown-pdf-theme-switcher#readme",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "markdown",
+    "pdf",
+    "theme",
+    "css",
+    "markdown-pdf"
+  ],
+  "extensionDependencies": [
+    "yzane.markdown-pdf"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "markdownPdfStyles.switchTheme",
+        "title": "Switch Theme",
+        "category": "Markdown PDF"
+      },
+      {
+        "command": "markdownPdfStyles.reinstallFiles",
+        "title": "Reinstall Theme Files",
+        "category": "Markdown PDF"
+      }
+    ],
+    "configuration": {
+      "title": "Markdown PDF Theme Switcher",
+      "properties": {
+        "markdownPdfStyles.theme": {
+          "type": "string",
+          "default": "corporate-modern",
+          "description": "Active Markdown PDF theme slug."
+        }
+      }
+    }
+  }
+}

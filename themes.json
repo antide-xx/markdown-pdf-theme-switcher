@@ -1,0 +1,181 @@
+{
+  "defaultTheme": "corporate-modern",
+  "themes": {
+    "corporate-clean": {
+      "name": "Corporate Clean",
+      "file": "themes/corporate-clean.css",
+      "use": "Consulting reports, internal strategy, project briefs, business analysis",
+      "margin": {
+        "top": "0.7in",
+        "right": "0.8in",
+        "bottom": "0.75in",
+        "left": "0.8in"
+      }
+    },
+    "corporate-modern": {
+      "name": "Corporate Modern",
+      "file": "themes/corporate-modern.css",
+      "use": "Client deliverables, external reports, written briefs",
+      "margin": {
+        "top": "0.7in",
+        "right": "0.8in",
+        "bottom": "0.75in",
+        "left": "0.8in"
+      }
+    },
+    "executive-memo": {
+      "name": "Executive Memo",
+      "file": "themes/executive-memo.css",
+      "use": "1\u20135 page memos, decision documents, briefing notes",
+      "margin": {
+        "top": "0.6in",
+        "right": "0.7in",
+        "bottom": "0.6in",
+        "left": "0.7in"
+      }
+    },
+    "professional-report": {
+      "name": "Professional Report",
+      "file": "themes/professional-report.css",
+      "use": "Business reviews, research, postmortems, findings",
+      "margin": {
+        "top": "0.85in",
+        "right": "0.9in",
+        "bottom": "0.85in",
+        "left": "0.9in"
+      }
+    },
+    "legal-contract": {
+      "name": "Legal Contract",
+      "file": "themes/legal-contract.css",
+      "use": "Agreements, NDAs, service contracts, releases",
+      "margin": {
+        "top": "1in",
+        "right": "1in",
+        "bottom": "1in",
+        "left": "1in"
+      }
+    },
+    "legal-modern": {
+      "name": "Legal Modern",
+      "file": "themes/legal-modern.css",
+      "use": "Contracts that should feel current rather than archival",
+      "margin": {
+        "top": "0.85in",
+        "right": "0.9in",
+        "bottom": "0.85in",
+        "left": "0.9in"
+      }
+    },
+    "proposal-sow": {
+      "name": "Proposal / SOW",
+      "file": "themes/proposal-sow.css",
+      "use": "Proposals, statements of work, estimates, scopes",
+      "margin": {
+        "top": "0.7in",
+        "right": "0.8in",
+        "bottom": "0.75in",
+        "left": "0.8in"
+      }
+    },
+    "meeting-notes": {
+      "name": "Meeting Notes",
+      "file": "themes/meeting-notes.css",
+      "use": "Agendas, production meetings, action items",
+      "margin": {
+        "top": "0.6in",
+        "right": "0.7in",
+        "bottom": "0.65in",
+        "left": "0.7in"
+      }
+    },
+    "technical-document": {
+      "name": "Technical Document",
+      "file": "themes/technical-document.css",
+      "use": "Engineering notes, APIs, architecture, deploy docs",
+      "margin": {
+        "top": "0.7in",
+        "right": "0.8in",
+        "bottom": "0.75in",
+        "left": "0.8in"
+      }
+    },
+    "production-document": {
+      "name": "Production Document",
+      "file": "themes/production-document.css",
+      "use": "Music, sound, VFX, edit, color notes, shot lists",
+      "margin": {
+        "top": "0.55in",
+        "right": "0.65in",
+        "bottom": "0.55in",
+        "left": "0.65in"
+      }
+    },
+    "editorial-serif": {
+      "name": "Editorial Serif",
+      "file": "themes/editorial-serif.css",
+      "use": "Essays, treatments, long-form writing, creative reports",
+      "margin": {
+        "top": "1in",
+        "right": "1.15in",
+        "bottom": "1in",
+        "left": "1.15in"
+      }
+    },
+    "minimal-document": {
+      "name": "Minimal Document",
+      "file": "themes/minimal-document.css",
+      "use": "Anything that should disappear into type and margin",
+      "margin": {
+        "top": "1in",
+        "right": "1.1in",
+        "bottom": "1in",
+        "left": "1.1in"
+      }
+    },
+    "academic-paper": {
+      "name": "Academic Paper",
+      "file": "themes/academic-paper.css",
+      "use": "Articles, course papers, literature notes",
+      "margin": {
+        "top": "1in",
+        "right": "1in",
+        "bottom": "1in",
+        "left": "1in"
+      }
+    },
+    "invoice-statement": {
+      "name": "Invoice / Statement",
+      "file": "themes/invoice-statement.css",
+      "use": "Invoices and billing statements",
+      "margin": {
+        "top": "0.7in",
+        "right": "0.75in",
+        "bottom": "0.7in",
+        "left": "0.75in"
+      }
+    },
+    "one-page-brief": {
+      "name": "One-Page Brief",
+      "file": "themes/one-page-brief.css",
+      "use": "Leave-behinds and single-page briefs",
+      "margin": {
+        "top": "0.5in",
+        "right": "0.6in",
+        "bottom": "0.5in",
+        "left": "0.6in"
+      }
+    },
+    "field-checklist": {
+      "name": "Field Checklist",
+      "file": "themes/field-checklist.css",
+      "use": "Shoot checklists, run-of-show, field paperwork",
+      "margin": {
+        "top": "0.55in",
+        "right": "0.6in",
+        "bottom": "0.55in",
+        "left": "0.6in"
+      }
+    }
+  }
+}
