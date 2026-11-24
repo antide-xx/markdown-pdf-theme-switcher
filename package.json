@@ -5,7 +5,12 @@
   "version": "0.2.0",
   "publisher": "antide-xx",
   "license": "MIT",
+  "pricing": "Free",
   "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#132033",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/antide-xx/markdown-pdf-theme-switcher.git"
@@ -34,6 +39,10 @@
     "onStartupFinished"
   ],
   "main": "./extension.js",
+  "scripts": {
+    "package": "npx --yes @vscode/vsce package",
+    "publish": "npx --yes @vscode/vsce publish"
+  },
   "contributes": {
     "commands": [
       {

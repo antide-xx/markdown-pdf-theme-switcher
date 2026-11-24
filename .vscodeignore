@@ -2,6 +2,7 @@
 .github/**
 scripts/**
 sample/**
+previews/**
 *.vsix
 .gitignore
 .vscodeignore

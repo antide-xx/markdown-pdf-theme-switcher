@@ -1,4 +1,4 @@
-name: Package VSIX
+name: Package and publish
 
 on:
   push:
@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      VSCE_PAT: ${{ secrets.VSCE_PAT }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -29,3 +31,6 @@ jobs:
         with:
           files: "*.vsix"
           generate_release_notes: true
+      - name: Publish to Visual Studio Marketplace
+        if: env.VSCE_PAT != ''
+        run: npx --yes @vscode/vsce publish --skip-duplicate -p "$VSCE_PAT"

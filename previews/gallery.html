@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Markdown PDF style gallery</title>
+<style>
+  :root { font-family: "IBM Plex Sans", "Noto Sans", sans-serif; }
+  body { margin: 0; background: #f3f3f3; color: #222; }
+  header { padding: 2rem 1.5rem 1rem; background: #111; color: #fff; }
+  header p { max-width: 46rem; color: #ddd; }
+  h1 { font-weight: 500; margin: 0 0 .4rem; }
+  main { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.25rem; padding: 1.5rem; }
+  .card { background: #fff; padding: .9rem .9rem 1rem; border: 1px solid #ddd; }
+  .card h2 { font-size: 1.05rem; margin: 0 0 .35rem; }
+  .meta, .meta2, .feat, .slug { font-size: .85rem; color: #555; margin: .2rem 0; }
+  .feat { min-height: 2.4em; }
+  img { width: 100%; height: auto; border: 1px solid #e2e2e2; }
+  a { color: #222; }
+  .contact { padding: 0 1.5rem 2rem; }
+  .contact img { max-width: 100%; border: 1px solid #ddd; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Markdown PDF style gallery</h1>
+  <p>Local previews for yzane/vscode-markdown-pdf. Open this file in a browser.
+  PDFs live in <code>pdfs/</code>. Switch the active theme with <code>./set-theme &lt;slug&gt;</code>.</p>
+</header>
+<main>
+
+    <article class="card" id="corporate-clean">
+      <h2>Corporate Clean</h2>
+      <p class="meta">Consulting reports, internal strategy, project briefs, business analysis</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · medium · sans</p>
+      <p class="feat">Quiet rules, gray tables, restrained hierarchy</p>
+      <a href='corporate-clean.png'><img src='corporate-clean.png' alt='Corporate Clean'></a>
+      <p class="links"><a href="../pdfs/corporate-clean.pdf">PDF</a> <a href="corporate-clean-p2.png">page 2</a> <p class="spec"><a href="specialized/corporate-clean.png">Specialized sample</a></p></p>
+      <p class="slug"><code>corporate-clean</code> → <code>custom/corporate-clean.css</code></p>
+    </article>
+    
+    <article class="card" id="corporate-modern">
+      <h2>Corporate Modern</h2>
+      <p class="meta">Client deliverables, external reports, written briefs</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · medium · sans</p>
+      <p class="feat">Navy accent, filled table headers, callout blocks</p>
+      <a href='corporate-modern.png'><img src='corporate-modern.png' alt='Corporate Modern'></a>
+      <p class="links"><a href="../pdfs/corporate-modern.pdf">PDF</a> <a href="corporate-modern-p2.png">page 2</a> <p class="spec"><a href="specialized/corporate-modern.png">Specialized sample</a></p></p>
+      <p class="slug"><code>corporate-modern</code> → <code>custom/corporate-modern.css</code></p>
+    </article>
+    
+    <article class="card" id="executive-memo">
+      <h2>Executive Memo</h2>
+      <p class="meta">1–5 page memos, decision documents, briefing notes</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · compact · sans</p>
+      <p class="feat">Uppercase title, To/From/Date/Subject labels, dense lists</p>
+      <a href='executive-memo.png'><img src='executive-memo.png' alt='Executive Memo'></a>
+      <p class="links"><a href="../pdfs/executive-memo.pdf">PDF</a> <a href="executive-memo-p2.png">page 2</a> <p class="spec"><a href="specialized/executive-memo.png">Specialized sample</a></p></p>
+      <p class="slug"><code>executive-memo</code> → <code>custom/executive-memo.css</code></p>
+    </article>
+    
+    <article class="card" id="professional-report">
+      <h2>Professional Report</h2>
+      <p class="meta">Business reviews, research, postmortems, findings</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · medium-open · sans</p>
+      <p class="feat">H1 page breaks, bordered tables, figure captions</p>
+      <a href='professional-report.png'><img src='professional-report.png' alt='Professional Report'></a>
+      <p class="links"><a href="../pdfs/professional-report.pdf">PDF</a> <a href="professional-report-p2.png">page 2</a> <p class="spec"><a href="specialized/professional-report.png">Specialized sample</a></p></p>
+      <p class="slug"><code>professional-report</code> → <code>custom/professional-report.css</code></p>
+    </article>
+    
+    <article class="card" id="legal-contract">
+      <h2>Legal Contract</h2>
+      <p class="meta">Agreements, NDAs, service contracts, releases</p>
+      <p class="meta2">Times New Roman / Liberation Serif · dense · serif</p>
+      <p class="feat">Justified serif, decimal/alpha/roman lists, signature rules</p>
+      <a href='legal-contract.png'><img src='legal-contract.png' alt='Legal Contract'></a>
+      <p class="links"><a href="../pdfs/legal-contract.pdf">PDF</a> <a href="legal-contract-p2.png">page 2</a> <p class="spec"><a href="specialized/legal-contract.png">Specialized sample</a></p></p>
+      <p class="slug"><code>legal-contract</code> → <code>custom/legal-contract.css</code></p>
+    </article>
+    
+    <article class="card" id="legal-modern">
+      <h2>Legal Modern</h2>
+      <p class="meta">Contracts that should feel current rather than archival</p>
+      <p class="meta2">IBM Plex Sans headings + IBM Plex Serif body · medium · mixed</p>
+      <p class="feat">Mixed type, cleaner tables, open signature lines</p>
+      <a href='legal-modern.png'><img src='legal-modern.png' alt='Legal Modern'></a>
+      <p class="links"><a href="../pdfs/legal-modern.pdf">PDF</a> <a href="legal-modern-p2.png">page 2</a> <p class="spec"><a href="specialized/legal-modern.png">Specialized sample</a></p></p>
+      <p class="slug"><code>legal-modern</code> → <code>custom/legal-modern.css</code></p>
+    </article>
+    
+    <article class="card" id="proposal-sow">
+      <h2>Proposal / SOW</h2>
+      <p class="meta">Proposals, statements of work, estimates, scopes</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · medium · sans</p>
+      <p class="feat">Uppercase section labels, pricing tables, assumptions</p>
+      <a href='proposal-sow.png'><img src='proposal-sow.png' alt='Proposal / SOW'></a>
+      <p class="links"><a href="../pdfs/proposal-sow.pdf">PDF</a> <a href="proposal-sow-p2.png">page 2</a> <p class="spec"><a href="specialized/proposal-sow.png">Specialized sample</a></p></p>
+      <p class="slug"><code>proposal-sow</code> → <code>custom/proposal-sow.css</code></p>
+    </article>
+    
+    <article class="card" id="meeting-notes">
+      <h2>Meeting Notes</h2>
+      <p class="meta">Agendas, production meetings, action items</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · compact · sans</p>
+      <p class="feat">Decision/action/question blocks, agenda H2 bars</p>
+      <a href='meeting-notes.png'><img src='meeting-notes.png' alt='Meeting Notes'></a>
+      <p class="links"><a href="../pdfs/meeting-notes.pdf">PDF</a> <a href="meeting-notes-p2.png">page 2</a> <p class="spec"><a href="specialized/meeting-notes.png">Specialized sample</a></p></p>
+      <p class="slug"><code>meeting-notes</code> → <code>custom/meeting-notes.css</code></p>
+    </article>
+    
+    <article class="card" id="technical-document">
+      <h2>Technical Document</h2>
+      <p class="meta">Engineering notes, APIs, architecture, deploy docs</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · medium · sans</p>
+      <p class="feat">Code and path emphasis, note/warning/tip/caution</p>
+      <a href='technical-document.png'><img src='technical-document.png' alt='Technical Document'></a>
+      <p class="links"><a href="../pdfs/technical-document.pdf">PDF</a> <a href="technical-document-p2.png">page 2</a> <p class="spec"><a href="specialized/technical-document.png">Specialized sample</a></p></p>
+      <p class="slug"><code>technical-document</code> → <code>custom/technical-document.css</code></p>
+    </article>
+    
+    <article class="card" id="production-document">
+      <h2>Production Document</h2>
+      <p class="meta">Music, sound, VFX, edit, color notes, shot lists</p>
+      <p class="meta2">IBM Plex Sans Condensed / IBM Plex Mono · compact · sans</p>
+      <p class="feat">Timestamp cues, compact tables, department H2</p>
+      <a href='production-document.png'><img src='production-document.png' alt='Production Document'></a>
+      <p class="links"><a href="../pdfs/production-document.pdf">PDF</a> <a href="production-document-p2.png">page 2</a> <p class="spec"><a href="specialized/production-document.png">Specialized sample</a></p></p>
+      <p class="slug"><code>production-document</code> → <code>custom/production-document.css</code></p>
+    </article>
+    
+    <article class="card" id="editorial-serif">
+      <h2>Editorial Serif</h2>
+      <p class="meta">Essays, treatments, long-form writing, creative reports</p>
+      <p class="meta2">Bitstream Charter + IBM Plex Serif · open · serif</p>
+      <p class="feat">Wide margins, italic H2, quiet quotations</p>
+      <a href='editorial-serif.png'><img src='editorial-serif.png' alt='Editorial Serif'></a>
+      <p class="links"><a href="../pdfs/editorial-serif.pdf">PDF</a> <a href="editorial-serif-p2.png">page 2</a> </p>
+      <p class="slug"><code>editorial-serif</code> → <code>custom/editorial-serif.css</code></p>
+    </article>
+    
+    <article class="card" id="minimal-document">
+      <h2>Minimal Document</h2>
+      <p class="meta">Anything that should disappear into type and margin</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · open · sans</p>
+      <p class="feat">No fills, hairline rules, inverted decoration</p>
+      <a href='minimal-document.png'><img src='minimal-document.png' alt='Minimal Document'></a>
+      <p class="links"><a href="../pdfs/minimal-document.pdf">PDF</a> <a href="minimal-document-p2.png">page 2</a> </p>
+      <p class="slug"><code>minimal-document</code> → <code>custom/minimal-document.css</code></p>
+    </article>
+    
+    <article class="card" id="academic-paper">
+      <h2>Academic Paper</h2>
+      <p class="meta">Articles, course papers, literature notes</p>
+      <p class="meta2">Latin Modern Roman / Noto Serif / Times · open · serif</p>
+      <p class="feat">Title block, first-line indent, hanging references</p>
+      <a href='academic-paper.png'><img src='academic-paper.png' alt='Academic Paper'></a>
+      <p class="links"><a href="../pdfs/academic-paper.pdf">PDF</a> <a href="academic-paper-p2.png">page 2</a> <p class="spec"><a href="specialized/academic-paper.png">Specialized sample</a></p></p>
+      <p class="slug"><code>academic-paper</code> → <code>custom/academic-paper.css</code></p>
+    </article>
+    
+    <article class="card" id="invoice-statement">
+      <h2>Invoice / Statement</h2>
+      <p class="meta">Invoices and billing statements</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · compact · sans</p>
+      <p class="feat">Tabular amounts, heavy total rule, uppercase title</p>
+      <a href='invoice-statement.png'><img src='invoice-statement.png' alt='Invoice / Statement'></a>
+      <p class="links"><a href="../pdfs/invoice-statement.pdf">PDF</a> <a href="invoice-statement-p2.png">page 2</a> <p class="spec"><a href="specialized/invoice-statement.png">Specialized sample</a></p></p>
+      <p class="slug"><code>invoice-statement</code> → <code>custom/invoice-statement.css</code></p>
+    </article>
+    
+    <article class="card" id="one-page-brief">
+      <h2>One-Page Brief</h2>
+      <p class="meta">Leave-behinds and single-page briefs</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · very compact · sans</p>
+      <p class="feat">Tight type, small tables, short margins</p>
+      <a href='one-page-brief.png'><img src='one-page-brief.png' alt='One-Page Brief'></a>
+      <p class="links"><a href="../pdfs/one-page-brief.pdf">PDF</a> <a href="one-page-brief-p2.png">page 2</a> <p class="spec"><a href="specialized/one-page-brief.png">Specialized sample</a></p></p>
+      <p class="slug"><code>one-page-brief</code> → <code>custom/one-page-brief.css</code></p>
+    </article>
+    
+    <article class="card" id="one-page-resume">
+      <h2>One-Page Resume</h2>
+      <p class="meta">Single-page résumés and CVs</p>
+      <p class="meta2">IBM Plex Sans / IBM Plex Mono · very compact · sans</p>
+      <p class="feat">Name header, uppercase sections, compact job dates</p>
+      <a href='one-page-resume.png'><img src='one-page-resume.png' alt='One-Page Resume'></a>
+      <p class="links"><a href="../pdfs/one-page-resume.pdf">PDF</a> <a href="one-page-resume-p2.png">page 2</a> </p>
+      <p class="slug"><code>one-page-resume</code> → <code>custom/one-page-resume.css</code></p>
+    </article>
+    
+    <article class="card" id="field-checklist">
+      <h2>Field Checklist</h2>
+      <p class="meta">Shoot checklists, run-of-show, field paperwork</p>
+      <p class="meta2">IBM Plex Sans Condensed / IBM Plex Mono · compact · sans</p>
+      <p class="feat">High-contrast H2 bars, large checkboxes, boxed tables</p>
+      <a href='field-checklist.png'><img src='field-checklist.png' alt='Field Checklist'></a>
+      <p class="links"><a href="../pdfs/field-checklist.pdf">PDF</a> <a href="field-checklist-p2.png">page 2</a> <p class="spec"><a href="specialized/field-checklist.png">Specialized sample</a></p></p>
+      <p class="slug"><code>field-checklist</code> → <code>custom/field-checklist.css</code></p>
+    </article>
+    
+    <article class="card" id="github-markdown">
+      <h2>GitHub Markdown</h2>
+      <p class="meta">README-like documents, developer notes</p>
+      <p class="meta2">Noto Sans / system UI · medium · sans</p>
+      <p class="feat">GitHub light Markdown, adapted off .markdown-body</p>
+      <a href='github-markdown.png'><img src='github-markdown.png' alt='GitHub Markdown'></a>
+      <p class="links"><a href="../pdfs/github-markdown.pdf">PDF</a> <a href="github-markdown-p2.png">page 2</a> <p class="spec"><a href="specialized/github-markdown.png">Specialized sample</a></p></p>
+      <p class="slug"><code>github-markdown</code> → <code>adapted/github-markdown-pdf.css</code></p>
+    </article>
+    
+    <article class="card" id="pxlrbt-markdown">
+      <h2>pxlrbt Markdown</h2>
+      <p class="meta">Modern Markdown exports with custom list markers</p>
+      <p class="meta2">IBM Plex Sans (adapted from Raleway) · medium · sans</p>
+      <p class="feat">Custom bullets, double header rule, local fonts</p>
+      <a href='pxlrbt-markdown.png'><img src='pxlrbt-markdown.png' alt='pxlrbt Markdown'></a>
+      <p class="links"><a href="../pdfs/pxlrbt-markdown.pdf">PDF</a> <a href="pxlrbt-markdown-p2.png">page 2</a> </p>
+      <p class="slug"><code>pxlrbt-markdown</code> → <code>adapted/pxlrbt-markdown-pdf.css</code></p>
+    </article>
+    
+    <article class="card" id="hanggrian-report">
+      <h2>Hanggrian Report</h2>
+      <p class="meta">Classic school/report title page (Hanggrian preset)</p>
+      <p class="meta2">Noto Serif / JetBrains Mono · medium · serif</p>
+      <p class="feat">Title/subtitle/attributions containers, half-inch indent</p>
+      <a href='hanggrian-report.png'><img src='hanggrian-report.png' alt='Hanggrian Report'></a>
+      <p class="links"><a href="../pdfs/hanggrian-report.pdf">PDF</a> <a href="hanggrian-report-p2.png">page 2</a> <p class="spec"><a href="specialized/hanggrian-report.png">Specialized sample</a></p></p>
+      <p class="slug"><code>hanggrian-report</code> → <code>adapted/hanggrian-report.css</code></p>
+    </article>
+    
+    <article class="card" id="hanggrian-letter">
+      <h2>Hanggrian Letter</h2>
+      <p class="meta">Formal letters (Hanggrian preset; pair with font-serif)</p>
+      <p class="meta2">Upstream serif import; prefer adapted hanggrian-font-serif.css · medium · serif</p>
+      <p class="feat">Sender, contact, recipient containers</p>
+      <a href='hanggrian-letter.png'><img src='hanggrian-letter.png' alt='Hanggrian Letter'></a>
+      <p class="links"><a href="../pdfs/hanggrian-letter.pdf">PDF</a> <a href="hanggrian-letter-p2.png">page 2</a> <p class="spec"><a href="specialized/hanggrian-letter.png">Specialized sample</a></p></p>
+      <p class="slug"><code>hanggrian-letter</code> → <code>third-party/hanggrian/letter.css</code></p>
+    </article>
+    
+    <article class="card" id="hanggrian-resume">
+      <h2>Hanggrian Resume</h2>
+      <p class="meta">Résumé layout (Hanggrian preset)</p>
+      <p class="meta2">Pair with adapted hanggrian-font-serif.css · compact · serif</p>
+      <p class="feat">Name/job containers, uppercase H1</p>
+      <a href='hanggrian-resume.png'><img src='hanggrian-resume.png' alt='Hanggrian Resume'></a>
+      <p class="links"><a href="../pdfs/hanggrian-resume.pdf">PDF</a> <a href="hanggrian-resume-p2.png">page 2</a> <p class="spec"><a href="specialized/hanggrian-resume.png">Specialized sample</a></p></p>
+      <p class="slug"><code>hanggrian-resume</code> → <code>third-party/hanggrian/resume.css</code></p>
+    </article>
+    
+    <article class="card" id="hanggrian-ieee">
+      <h2>Hanggrian IEEE</h2>
+      <p class="meta">Two-column academic papers in IEEE-like layout</p>
+      <p class="meta2">Times New Roman / Liberation Mono · dense · serif</p>
+      <p class="feat">Two columns, small type, numbered references</p>
+      <a href='hanggrian-ieee.png'><img src='hanggrian-ieee.png' alt='Hanggrian IEEE'></a>
+      <p class="links"><a href="../pdfs/hanggrian-ieee.pdf">PDF</a> <a href="hanggrian-ieee-p2.png">page 2</a> <p class="spec"><a href="specialized/hanggrian-ieee.png">Specialized sample</a></p></p>
+      <p class="slug"><code>hanggrian-ieee</code> → <code>adapted/hanggrian-ieee.css</code></p>
+    </article>
+    
+    <article class="card" id="hanggrian-apa">
+      <h2>Hanggrian APA</h2>
+      <p class="meta">APA-like student papers</p>
+      <p class="meta2">Times New Roman / JetBrains Mono · double-spaced · serif</p>
+      <p class="feat">Double spacing, hanging references, title page</p>
+      <a href='hanggrian-apa.png'><img src='hanggrian-apa.png' alt='Hanggrian APA'></a>
+      <p class="links"><a href="../pdfs/hanggrian-apa.pdf">PDF</a> <a href="hanggrian-apa-p2.png">page 2</a> <p class="spec"><a href="specialized/hanggrian-apa.png">Specialized sample</a></p></p>
+      <p class="slug"><code>hanggrian-apa</code> → <code>adapted/hanggrian-apa.css</code></p>
+    </article>
+    
+    <article class="card" id="hanggrian-cheatsheet">
+      <h2>Hanggrian Cheatsheet</h2>
+      <p class="meta">Dense reference sheets; pair with column modules</p>
+      <p class="meta2">IBM Plex Sans Condensed / JetBrains Mono · very dense · sans</p>
+      <p class="feat">7pt type, tight tables, local condensed sans</p>
+      <a href='hanggrian-cheatsheet.png'><img src='hanggrian-cheatsheet.png' alt='Hanggrian Cheatsheet'></a>
+      <p class="links"><a href="../pdfs/hanggrian-cheatsheet.pdf">PDF</a>  <p class="spec"><a href="specialized/hanggrian-cheatsheet.png">Specialized sample</a></p></p>
+      <p class="slug"><code>hanggrian-cheatsheet</code> → <code>adapted/hanggrian-cheatsheet.css</code></p>
+    </article>
+    
+</main>
+<section class="contact">
+  <h2>Contact sheet</h2>
+  <p><a href="gallery.png"><img src="gallery.png" alt="All themes"></a></p>
+</section>
+</body>
+</html>
